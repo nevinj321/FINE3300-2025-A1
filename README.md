@@ -1,7 +1,7 @@
 # FINE3300-2025-A1
 Assignment 1 + 2 - Mortgage Payments , Exchange Rates and Loan Amortization and Payment Schedule by Nevin 
 
-This respository was developed as part of FINE 3300 – Assignment 1 & 2 . It demonstrates practical applications of Python programming in the context of finance and economics by building two core modules:
+This respository was developed as part of FINE 3300 – Assignment 1 , & Assignment 2 part A .
 
 PART 1
 MortgagePayment Class
