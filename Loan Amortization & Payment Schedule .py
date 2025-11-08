@@ -77,6 +77,15 @@ weekly      = mort.level_payment(principal, WK)
 rapid_biweekly = monthly / 2
 rapid_weekly   = monthly / 4
 
+# payment frequencies presented on terminal 
+print()
+print(f"Monthly Payment: ${monthly:.2f}")
+print(f"Semi-monthly Payment: ${semimonthly:.2f}")
+print(f"Bi-weekly Payment: ${biweekly:.2f}")
+print(f"Weekly Payment: ${weekly:.2f}")
+print(f"Rapid Bi-weekly Payment: ${rapid_biweekly:.2f}")
+print(f"Rapid Weekly Payment: ${rapid_weekly:.2f}")
+print()
 # The dataframe to build out payment schedule
 df_monthly = mort.build_schedule(principal, M,  years_term)
 df_semimonthly = mort.build_schedule(principal, SM, years_term)
